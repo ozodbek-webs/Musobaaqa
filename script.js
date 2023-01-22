@@ -27,7 +27,7 @@ window.onclick = function(event) {
 }
 
 // -------------------ozodbekk end --------------------
-
+//
 // --------Baxrullo------
 
 
