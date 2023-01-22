@@ -2,6 +2,10 @@
 
 /* ozodbek */
 
+body{
+    background: #E5E5E5;
+    margin: 0 auto;
+}
 .conteiner {
   width: 1110px;
   margin: 0 auto;
@@ -10,18 +14,24 @@
   margin-top: 0;
 }
 .heder__section {
-  max-width: 1920px;
-  min-width: 365px;
+
   background-image: url("../images/back.jpg");
   background-size: cover;
 
   height: 1301px;
   width: 1920px;
+  position: relative;
+  top: -8px;
+  left: -8px;
+
+
 }
 .nav_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+     position: relative;
+     top: 34px;
 }
 .left_nav {
   display: flex;
@@ -48,6 +58,11 @@
 }
 .link_p:hover {
   font-size: 20px;
+  transition: all -0.5s ease;
+  -webkit-transition: all -0.5s ease;
+  -moz-transition: all -0.5s ease;
+  -ms-transition: all -0.5s ease;
+  -o-transition: all -0.5s ease;
 }
 
 .link_p:active {
@@ -227,6 +242,8 @@
   color: #000000;
 }
 
+
+
 /* ozodbek end  */
 
 /* Baxrullo start */
@@ -366,5 +383,39 @@ input {
   background: #fff4e7;
   border-radius: 16px;
 }
+
+
+.txt1{
+ 
+    text-align: center;
+    position: relative;
+    top: 124px;
+    
+}
+.txt2{
+
+    text-align: center;
+    position: relative;
+    top: 124px;
+    
+}
+.txt3{
+   
+    text-align: center;
+    position: relative;
+    top: 124px;
+    
+}
+.txt4{
+ 
+    text-align: center;
+    position: relative;
+    top: 124px;
+    
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
 
 /* Baxrullo end */
