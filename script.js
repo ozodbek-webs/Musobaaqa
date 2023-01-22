@@ -34,31 +34,45 @@ window.onclick = function(event) {
 // --------Baxrullo------
 
 
-  import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js' ;
+//   import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js' ;
 
 
-  const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'vertical',
-    loop: true,
+//   const swiper = new Swiper('.swiper', {
+//     // Optional parameters
+//     direction: 'vertical',
+//     loop: true,
   
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
+//     // If we need pagination
+//     pagination: {
+//       el: '.swiper-pagination',
+//     },
   
-    // Navigation arrows
+//     // Navigation arrows
+//     navigation: {
+//       nextEl: '.swiper-button-next',
+//       prevEl: '.swiper-button-prev',
+//     },
+  
+//     // And if we need scrollbar
+//     scrollbar: {
+//       el: '.swiper-scrollbar',
+//     },
+//   });
+
+
+
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
+    pagination: {
+      el: ".swiper-pagination",
     },
+    mousewheel: true,
+    keyboard: true,
   });
-
 
 
 
