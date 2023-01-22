@@ -6,7 +6,7 @@
 }
 
 
-.container{
+.container {
     width: 1480px;
     margin: 0 auto;
 }
@@ -111,12 +111,175 @@
 
     color: #07484A;
 }
-.Testimonials{
-    h1{
+
+.Testimonials {
+    margin-top: 200px;
+
+    h1 {
         text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 85px;
     }
-    p{
+
+    p {
         margin-top: 20px;
         text-align: center;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
     }
+
+    .Salom {
+        display: flex;
+
+        p {
+            margin-left: 70px;
+            text-align: left;
+            margin-top: 90px;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 49px;
+        }
+
+        .drhfh2 {
+            margin-top: 30px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+        }
+
+        .sfefe2 {
+            margin-top: 10px;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+
+    .chiz3 {
+        margin-top: 128px;
+        width: 1480px;
+        height: 0px;
+
+        border: 2px solid #07484A;
+    }
+}
+
+.d-flex {
+    margin-left: 11%;
+    margin-top: 200px;
+    display: flex;
+
+    img {
+        width: 740px;
+    }
+
+    .flex2 {
+        width: 740px;
+        background: #E0F6F1;
+
+        .cont2 {
+            width: 80%;
+            margin: 0 auto;
+
+            h1 {
+                font-weight: 400;
+                font-size: 64px;
+                line-height: 85px;
+                letter-spacing: 0.05em;
+            }
+
+            .h12 {
+                font-weight: 700;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 28px;
+            }
+
+            .input2 {
+                margin-top: 30px;
+                width: 517px;
+                height: 60px;
+                color: #C4C4C4;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 28px;
+                background: #E0F6F1;
+                border: none;
+            }
+
+            .btn2 {
+                margin-top: 30px;
+                width: 250px;
+                height: 68px;
+                border: none;
+                border-radius: 5px;
+                background: #70908B;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                color: aliceblue;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 28px;
+            }
+        }
+    }
+}
+
+.Benefitsforyourexpediency {
+    width: 1920px;
+    height: 695px;
+    background: #E0EFF6;
+    margin: 0 auto;
+    h1 {
+        margin-top: 100px;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 85px;
+        text-align: center;
+        color: #07484A;
+    }
+
+    .d-flex2222 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .afsfvsdv2 {
+        margin-top: 50px;
+        margin-left: 50px;
+
+        img {
+            margin-left: 30%;
+        }
+
+        h2 {
+            text-align: center;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 48px;
+        }
+
+        p {
+            margin-top: 36px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 33px;
+            text-align: center;
+        }
+    }
+}
+
+footer {
+    background: #F3F6F5;
 }
