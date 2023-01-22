@@ -1,96 +1,122 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-.contain-3{
-    display: flex;
-    flex-direction: row;
-justify-content: space-between;
-align-items: flex-start;
-width: 1620px;
-height: 238px;
 
-margin: 0 auto;
-margin-top: 100px;
+
+.container{
+    width: 1480px;
+    margin: 0 auto;
 }
 
-.col-inf{
+.contain-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1620px;
+    height: 238px;
+
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.col-inf {
     width: 405px;
     height: 238px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     list-style-type: none;
-  
+
 }
-.col-inf a{
+
+.col-inf a {
     text-decoration: none;
     color: #07484A;
 
 }
-.logo-footer img{
+
+.logo-footer img {
     width: 137px;
-   height: 36px;
+    height: 36px;
 }
-.ul-link{
+
+.ul-link {
     width: 286px;
     height: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
     list-style-type: none;
-   
+
 }
-.item-3{
+
+.item-3 {
     list-style-type: none;
 }
-.icons img{
+
+.icons img {
 
     width: 28px;
     height: 27px;
 }
-.col-3{
-    
-  width: 216px;
-  height: auto;
-  float: left;
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  
+
+.col-3 {
+
+    width: 216px;
+    height: auto;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+
 }
-.col-3 h1{
+
+.col-3 h1 {
     margin: 0;
     padding: 0;
     font-family: inherit;
     font-size: 12px;
     line-height: 17px;
     padding: 20px 0px 5px 0px;
-     color: #07484A;
+    color: #07484A;
 
-   
+
 }
-.col-3 ul{
+
+.col-3 ul {
     list-style-type: none;
 }
-.list a{
+
+.list a {
     color: #07484A;
     text-decoration: none;
 }
-.clearfix{
+
+.clearfix {
     width: 392px;
-height: 25px;
-margin-left: 150px;
+    height: 25px;
+    margin-left: 150px;
 
 
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
 
 
 
-color: #07484A;
+    color: #07484A;
+}
+.Testimonials{
+    h1{
+        text-align: center;
+    }
+    p{
+        margin-top: 20px;
+        text-align: center;
+    }
 }
