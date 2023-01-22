@@ -15,11 +15,8 @@
   background-image: url("../images/back.jpg");
   background-size: cover;
 
-
   height: 1301px;
   width: 1920px;
- 
-
 }
 .nav_header {
   display: flex;
@@ -268,7 +265,7 @@
   height: 1018px;
 
   position: relative;
-  left: 188px;
+  left: 58px;
   overflow: scroll;
   overflow-x: hidden;
   line-height: 100px;
@@ -305,8 +302,69 @@
 }
 
 input {
-  width: 349px;
+  width: 343px;
   padding: 26px 32px;
+}
+
+/* Popular Products */
+
+.PopularProducts {
+  width: 1919px;
+  height: 1173px;
+}
+
+.bigchair {
+  position: absolute;
+
+  position: absolute;
+  width: 926px;
+  height: 1098px;
+}
+
+.chairs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  gap: 48px;
+  position: relative;
+  left: 96px;
+}
+
+.chairs img{
+
+ position: relative;
+ left: 111px;
+ top: 84px;
+
+  }
+.chair1 {
+  width: 430.75px;
+  height: 585px;
+
+  background: #caf3e5;
+  border-radius: 16px;
+}
+.chair2 {
+  width: 430.75px;
+  height: 585px;
+
+  background: #e0eff6;
+  border-radius: 16px;
+}
+.chair3 {
+  width: 430.75px;
+  height: 585px;
+
+  background: #eeebff;
+  border-radius: 16px;
+}
+.chair4 {
+  width: 430.75px;
+  height: 585px;
+
+  background: #fff4e7;
+  border-radius: 16px;
 }
 
 /* Baxrullo end */
