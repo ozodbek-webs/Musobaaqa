@@ -1,9 +1,12 @@
 
 
+<<<<<<< HEAD
+=======
 // -------------------ozodbekk------------------------
 
 
 
+>>>>>>> bbd1678d5ef723d19eddf02784b9b5c0e3eabc0b
 var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
